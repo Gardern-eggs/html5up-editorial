@@ -1612,7 +1612,8 @@ button,
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
-    align-items: center;
+    align-items: flex-start;
+    
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
