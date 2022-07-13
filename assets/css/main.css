@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav {
   display: block; }
 
 body {
@@ -38,7 +38,22 @@ blockquote, q {
   blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none; }
-
+    .section{ 
+      display: inline-flex;
+    }
+    .space{
+      width: 80px;
+      height: 80px;
+      /* border: 2px solid blue; */
+    }
+.logowrapper{
+  width: 70px;
+  height: 80px;
+  /* border: 2px solid red; */
+}
+.learnMore{
+  display: none;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
