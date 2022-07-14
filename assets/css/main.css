@@ -2143,6 +2143,7 @@ button,
     flex-shrink: 1;
     width: 50%; }
   #banner .image {
+    padding-top: 150px;
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
     -ms-flex-grow: 0;
@@ -2154,7 +2155,8 @@ button,
     display: block;
     margin: 0 0 2em 4em;
     width: 50%;
-  height: 20%
+    height: 50%;
+    
 }
     #banner .image img {
       height: 100%;
@@ -2166,7 +2168,9 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 100%; }
+      width: 110%;
+
+     }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
