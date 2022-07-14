@@ -31,15 +31,7 @@
 				}, 100);
 			});
 // learn more button
-const parent=document.querySelector('.content');
-parent.addEventListener('click',event=>{
-	const current=event.target;
-	const readbtn=current.className.includes('learnMore');
-	if(!readbtn)return;
-	const currentText=event.textContent.includes('learn More') ? "learn More":"learn more";
 
-
-})
 
 
 		// ... stopped resizing.
