@@ -866,6 +866,9 @@ hr {
           .row.gtr-200.gtr-uniform > * {
             padding-top: 3em; } }
   @media screen and (max-width: 480px) {
+    #banner .image {
+      padding-top: 0px;
+    }
     .row {
       display: flex;
       flex-wrap: wrap;
@@ -1439,6 +1442,7 @@ ul.pagination {
     ul.pagination li:last-child {
       padding-left: 0.75em; }
   @media screen and (max-width: 480px) {
+    
     ul.pagination li:nth-child(n+2):nth-last-child(n+2) {
       display: none; }
     ul.pagination li:first-child {
@@ -1731,6 +1735,9 @@ button,
             padding-top: 0px;
           } }
   @media screen and (max-width: 480px) {
+    #banner .image {
+      padding-top: 0px;
+    } 
     .features article .icon:before {
       font-size: 1.25rem; } }
 
@@ -2163,7 +2170,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 109%;
+      width: 100%;
 
      }
   @media screen and (orientation: portrait) {
@@ -2197,7 +2204,8 @@ button,
         height: 25em;
         max-height: 50vh;
         min-height: 18em;
-        width: 100%; } }
+        width: 100%;
+        padding-top: 0px; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
       max-height: 35vh; } }
