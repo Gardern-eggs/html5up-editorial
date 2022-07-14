@@ -1726,7 +1726,10 @@ button,
         .features article .icon:after {
           height: 4em;
           margin: -2em 0 0 -2em;
-          width: 4em; } }
+          width: 4em; }
+          #banner .image {
+            padding-top: 0px;
+          } }
   @media screen and (max-width: 480px) {
     .features article .icon:before {
       font-size: 1.25rem; } }
@@ -2056,7 +2059,7 @@ button,
           font-size: 1.5rem;
           margin-left: -0.4375em; }
       body.is-preload #sidebar {
-        display: none; } }
+        display: none; }}
   @media screen and (max-width: 736px) {
     #sidebar .toggle {
       text-indent: 7.25em;
@@ -2160,7 +2163,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 110%;
+      width: 109%;
 
      }
   @media screen and (orientation: portrait) {
